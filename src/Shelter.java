@@ -5,7 +5,7 @@ public class Shelter {
     public LinkedList<Animal> animalQueue = new LinkedList<>();
 
     public void enqueue(Animal animal){
-        animalQueue.add(animal);
+        animalQueue.add(animal); //equivalent to addLast
     }
 
     public void dequeueAny(){
